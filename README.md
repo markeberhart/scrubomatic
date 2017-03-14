@@ -3,6 +3,7 @@ Javascript library for animating a directory of still images with a scrubber but
 
 Basic Usage:
 
+```javascript
 <link rel="stylesheet" href="./src/js/scrubomatic/scrubomatic.css">
 
 <div id="scrubomatic"></div>
@@ -26,3 +27,4 @@ Basic Usage:
         backgroundColor:'rgba(25,255,255,0.5)'
     })
 </script>
+```
