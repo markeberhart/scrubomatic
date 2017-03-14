@@ -1,0 +1,32 @@
+#scrubomatic{
+    position: absolute;
+    margin:0px;
+    float:right;
+}
+
+#scrub {
+    background-color: cadetblue;
+    border-radius: 50%;
+    cursor: move;
+    position: relative;
+    bottom: 10px;
+    left: -10px;
+    z-index: 1;
+}
+
+#scrub .active {
+    cursor: move;
+}
+
+#timeline {
+    height: 10px;
+    background-color: #b3b3b3;
+    position: absolute;
+    bottom: 50px;
+}
+
+.frame{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
